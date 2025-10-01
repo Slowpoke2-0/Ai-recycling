@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import DepthwiseConv2D
 from PIL import Image, ImageOps
 
-TOKEN = "MTM0NjkwMDgwMTcyOTA2OTA4Nw.GPmmhW.g_2ifaFmIy-u-1tghsQ1sz9Bi3l50zN2bgYfr0"
+TOKEN = "Token"
 SAVE_DIR = "images"
 
 # --- KONFIGURACJA AI ---
@@ -72,5 +72,6 @@ async def on_message(message):
                             f"🔎 Klasa: **{class_name}**\n"
                             f"📊 Pewność: {confidence:.2f}"
                         )
+
 
 client.run(TOKEN)
