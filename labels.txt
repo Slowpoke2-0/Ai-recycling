@@ -1,0 +1,4 @@
+0 plastik i metal
+1 szklo
+2 papier
+3 odpady zielone
